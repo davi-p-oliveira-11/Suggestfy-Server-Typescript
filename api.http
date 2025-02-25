@@ -5,3 +5,6 @@ Content-Type: application/json
   "name": "John Connnor",
   "email": "johnconnor@skynet.com"
 }
+
+###
+GET http://localhost:3333/invites/john123
