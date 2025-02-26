@@ -2,13 +2,14 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-  "name": "John Connnor",
-  "email": "johnconnor@skynet.com"
+  "name": "Indicated user",
+  "email": "any@skynet.com",
+  "referrer": "ae3246a5-a861-46d0-b484-75f22d0467d6"
 }
 
 ###
-GET http://localhost:3333/invites/john123
+GET http://localhost:3333/invites/ae3246a5-a861-46d0-b484-75f22d0467d6
 
 
 ###
-GET http://localhost:3333/subscribers/john123/ranking/clicks
+GET http://localhost:3333/subscribers/ae3246a5-a861-46d0-b484-75f22d0467d6/ranking/clicks
