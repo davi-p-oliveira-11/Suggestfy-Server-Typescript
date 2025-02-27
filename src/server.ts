@@ -47,3 +47,8 @@ app.register(getRankingRoute)
 app.listen({ port: env.PORT }).then(() => {
   console.log('HTTP server running')
 })
+
+/*
+  Neon to host postgresql neon.tech 
+  upstash to deploy redis
+*/
