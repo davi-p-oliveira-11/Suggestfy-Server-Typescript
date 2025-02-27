@@ -51,4 +51,5 @@ app.listen({ port: env.PORT }).then(() => {
 /*
   Neon to host postgresql neon.tech 
   upstash to deploy redis
+  render to deploy node
 */
